@@ -7,23 +7,22 @@ Github:https://github.com/Pawel0605?tab=repositories<br/>
 ### Programming skills
 * HTML
 * CSS
-* Git<br/>
-### Code example<br/>
+* Git
+### Code example
 ```
-def unlucky_days(year)
   function getCount(str) {
   return (str.match(/[aeiou]/ig)||[]).length;
 }
 ```
-### Education<br/>
+### Education
 Grodno State Agrarian University<br/>
 *Economist-manager*<br/>
-### Soft skills<br/>
+### Soft skills
 * Communicative
 * Responsible and focused
 * Multi-task oriented
 * Ready to study and improve my professional skills<br/>
-### Language<br/>
+### Language
 * Russian (native)
 * English A1 (*I'm currently improving my English with repeater*)
 * Polish A2
