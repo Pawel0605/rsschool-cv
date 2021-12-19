@@ -1,5 +1,5 @@
 ![logo](2.jpg)<br/>
-# Buslovich Pavel<br/>
+ # Buslovich Pavel<br/>
 ***Grodno, Republic of Belarus***<br/>
 Phone number:+375295863581<br/>
 Email: win1777@yandex.ru<br/>
@@ -8,6 +8,13 @@ Github:https://github.com/Pawel0605?tab=repositories<br/>
 * HTML
 * CSS
 * Git<br/>
+### Code example<br/>
+```
+def unlucky_days(year)
+  function getCount(str) {
+  return (str.match(/[aeiou]/ig)||[]).length;
+}
+```
 ### Education<br/>
 Grodno State Agrarian University<br/>
 *Economist-manager*<br/>
