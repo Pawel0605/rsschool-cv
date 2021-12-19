@@ -1,5 +1,5 @@
 ![logo](2.jpg)<br/>
- # Buslovich Pavel<br/>
+# Buslovich Pavel<br/>
 ***Grodno, Republic of Belarus***<br/>
 Phone number:+375295863581<br/>
 Email: win1777@yandex.ru<br/>
@@ -16,7 +16,7 @@ Github:https://github.com/Pawel0605?tab=repositories<br/>
 ```
 ### Education
 Grodno State Agrarian University<br/>
-*Economist-manager*<br/>
+*Economist-manager*
 ### Soft skills
 * Communicative
 * Responsible and focused
