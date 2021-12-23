@@ -1,0 +1,64 @@
+.side {
+    background-color:rgb(146, 127, 110);
+    width: 300px;
+    height: 600px;
+    float: left;
+}
+.content {
+    background-color:rgb(112, 129, 134);
+    width: 900px;
+    height: 600px;
+    float: left;
+    text-decoration: underline;
+}
+.photo {
+    width: 100px;
+    padding: 20px 100px ;
+
+}
+h3 {
+    color: rgb(48, 37, 37);
+    padding-left:  75px;
+}
+.code {
+    background-color: silver; 
+    width: 420px;
+    margin-left:  70px;
+}
+.number {
+    text-align: center;
+    font-size: px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.mail {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.state {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+ 
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info {
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+ul {
+    padding-left: 70px;
+}
+.uni {
+    padding-left: 70px;
+}
+.info {
+    text-decoration: underline;
+}
