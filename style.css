@@ -62,3 +62,11 @@ ul {
 .info {
     text-decoration: underline;
 }
+.footer {
+    text-align: center;
+    background-color: cadetblue;
+    width: 1200px;
+}
+.cv {
+    height: 585px;
+}
