@@ -12,63 +12,74 @@
      display: inline-block;
      padding: 15px;
  }
+.info {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around; 
+    height: 300px;
+    margin-bottom:  -16px;
+}
+h1 {
+    font-size: 36px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 .photo {
-    width: 100px;
-    padding: 20px 100px ;
-
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-h3 {
-    color: rgb(48, 37, 37);
-    padding-left:  75px;
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+}
+.contacts {
+    background-color: burlywood;
 }
 .code {
-    background-color: silver; 
-    width: 420px;
-    margin-left:  70px;
+    background-color: rgb(170, 34, 34); 
 }
-.number {
-    text-align: center;
-    font-size: px;
-    padding-top: 20px;
-    font-size: 20px;
+.soft {
+    background-color: chartreuse;
 }
-.mail {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 20px;
+.skills {
+    background-color: darkcyan;
 }
-.state {
-    text-align: center;
-    font-size: 24px;
-    padding-top: 20px;
+.education {
+    background-color: darkorange;
+}
+.language {
+    background-color: darksalmon;
 }
  
-h1 {
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h3 {
+    margin: 0px;
+    padding: 0px;
 }
-.info {
-    text-align: center;
-    font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 50px;
-}
-ul {
-    padding-left: 70px;
-}
-.uni {
-    padding-left: 70px;
-}
-.info {
-    text-decoration: underline;
+p {
+    margin: 0px;
+    padding: 0px;
 }
 .footer {
     text-align: center;
     background-color: cadetblue;
-    width: 1200px;
+    width: 1400px;
 }
-.cv {
-    height: 585px;
+ul {
+    padding: 0px;
+    margin: 0px;
 }
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+ 

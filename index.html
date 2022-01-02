@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#Contacts" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#About me" class="nav-link">About me</a></li>
                 <li class="nav-item"><a href="#Soft skills" class="nav-link">Soft skills</a></li>
                 <li class="nav-item"><a href="#Code Example" class="nav-link">Code Example</a></li>
@@ -20,48 +20,62 @@
                 <li class="nav-item"><a href="#Language" class="nav-link">Language</a></li>         
             </ul>
         </nav>
-    </div>
-    <main class="cv">
-    <aside class="side">
+    </header>
+    <main class="main">
+        <div class="container main-container">
+        <section class="info">
         <img class="photo" src='./2.jpg' alt="my photo">
         <h1>Pavel Buslovitch</h1>
-        <p class="info"><b>Contact</b></p>
-        <p class="state">Grodno, Republic of Belarus</p>
-        <p class="number">Phone number:<a href="tel:+375295863581">+375295863581</a></p>
-        <p class="mail">Email:<a href="mailto:win1777@yandex.by">win1777@yandex.by</a></p>
-    </aside>
-    <section class="content">
-             <h3>Programming Skills</h3>
-             <ul>
-                 <li>HTML</li>
-                 <li>CSS</li>
-                 <li>GIT</li>
-             </ul>
-             <h3>Code Example</h3>
-             <p class="code">function getCount(str) {return (str.match(/[aeiou]/ig)||[]).length;}</p>
-             <h3>Eduction</h3>
-             <p class="uni">Grodno State Agrarian University</p>
-             <h3>Soft skills</h3>
-             <ul>
-                 <li>Communicative</li>
-                 <li>Responsible and focused</li>
-                 <li>Multi-task oriented</li>
-                 <li>Ready to study and improve my professional skills</li>
-             </ul>
-             <h3>Language</h3>
-             <ul> 
-                 <li>English (<i>I'm currently improving my English with repeater</i>)</li>
-                 <li>Polish A2</li>
-                 <li>Russian(native)</li>
-             </ul>    
+        </section>
+        <section class="section" id="contacts">
+        <h2 class="title-contacts">Contacts</h2>
+        <ul>
+        <li class="state">Grodno, Republic of Belarus</li>
+        <li class="number">Phone number:<a href="tel:+375295863581">+375295863581</li>
+        <li class="mail">Email:<a href="mailto:win1777@yandex.by">win1777@yandex.by</li>
+        </ul>
+       </section>
+       <section class="section" id="skills">
+        <h3>Programming Skills</h3>
+        <ul class="list-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GIT</li>
+        </ul>
+   </section>
+   <section class="section" id="code">
+        <h3>Code Example</h3>
+        <p >function getCount(str) {return (str.match(/[aeiou]/ig)||[]).length;}</p>
     </section>
+    <section class="section" id="education">
+        <h3>Eduction</h3>
+        <p class="uni">Grodno State Agrarian University</p>
+    </section>
+    <section class="section" id="soft">
+        <h3>Soft skills</h3>
+           <ul>
+            <li>Communicative</li>
+            <li>Responsible and focused</li>
+            <li>Multi-task oriented</li>
+            <li>Ready to study and improve my professional skills</li>
+            </ul>
+        </section>
+        <section class="section" id="language">       
+        <h3>Language</h3>
+        <ul> 
+            <li>English (<i>I'm currently improving my English with repeater</i>)</li>
+            <li>Polish A2</li>
+            <li>Russian(native)</li>
+        </ul>    
+        </section>
+    </div>
     </main> 
 </body>
-         <footer>
-            <p>Github:<a href=https://github.com/Pawel0605>https://github.com/Pawel0605</a></p>
-            <a href=https://rs.school/js>
-               <img src=logo.png alt=логотип>
-            </a>
+ <footer class="footer">
+         <p>Github:<a href=https://github.com/Pawel0605>https://github.com/Pawel0605</a></p>
+        <a href=https://rs.school/js>
+        <img src=logo.png alt=логотип>
+        </a>
             <p><time datetime="2021-12-27">December 27th, 2021</time></p>
         </footer>   
 </html>
