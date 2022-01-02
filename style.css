@@ -1,6 +1,5 @@
 .header {
-    border: 2px solid red;
-    background-color: aqua;
+    background-color: rgb(245, 190, 109);
 }
 .nav-list {
     display: flex;
@@ -11,20 +10,23 @@
  .nav-item {
      display: inline-block;
      padding: 15px;
+     color:palegreen
  }
 .info {
-    background-color: blueviolet;
+    width: 100%;
     display: flex;
     justify-content: space-around; 
     height: 300px;
     margin-bottom:  -16px;
+    border-bottom: peru 20px solid;
 }
 h1 {
     font-size: 36px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-top: 100px;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: underline rgb(241, 208, 16);
+    color: rgb(85, 58, 32);
 }
 .photo {
     width: 200px;
@@ -38,48 +40,49 @@ h1 {
     justify-content: space-between;
 }
 .section {
-    width: calc(50% - 20px);
-    padding: 10px;
-    padding-bottom: 35px;
+    width:calc(50% - 20px);
+    margin-left: 10px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.212);
 }
-.contacts {
-    background-color: burlywood;
-}
-.code {
-    background-color: rgb(170, 34, 34); 
-}
-.soft {
-    background-color: chartreuse;
-}
-.skills {
-    background-color: darkcyan;
-}
-.education {
-    background-color: darkorange;
-}
-.language {
-    background-color: darksalmon;
-}
- 
-h3 {
-    margin: 0px;
-    padding: 0px;
-}
-p {
-    margin: 0px;
-    padding: 0px;
-}
-.footer {
-    text-align: center;
-    background-color: cadetblue;
-    width: 1400px;
-}
-ul {
-    padding: 0px;
-    margin: 0px;
+.section-language {
+    border-bottom: none;
 }
 h2 {
-    margin: 0px;
-    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: rgb(223, 179, 122);
+    padding: 20px;
 }
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    line-height: 35px;
+}
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;  
+    padding-bottom: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(245, 190, 109)
+}
+.date {
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.img {
+    padding-left: 800px;
+}
+
+
+
  
